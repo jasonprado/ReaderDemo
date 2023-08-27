@@ -14,6 +14,8 @@
 		0EF04F6D2A9A87F400509943 /* ReaderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF04F6C2A9A87F400509943 /* ReaderDemoTests.swift */; };
 		0EF04F772A9A87F400509943 /* ReaderDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF04F762A9A87F400509943 /* ReaderDemoUITests.swift */; };
 		0EF04F792A9A87F400509943 /* ReaderDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF04F782A9A87F400509943 /* ReaderDemoUITestsLaunchTests.swift */; };
+		0EF04F862A9A893200509943 /* HighlightableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF04F852A9A893200509943 /* HighlightableTextView.swift */; };
+		0EF04F882A9A8C5200509943 /* SpeechToTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF04F872A9A8C5200509943 /* SpeechToTextViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0EF04F722A9A87F400509943 /* ReaderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReaderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF04F762A9A87F400509943 /* ReaderDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderDemoUITests.swift; sourceTree = "<group>"; };
 		0EF04F782A9A87F400509943 /* ReaderDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EF04F852A9A893200509943 /* HighlightableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightableTextView.swift; sourceTree = "<group>"; };
+		0EF04F872A9A8C5200509943 /* SpeechToTextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				0EF04F5D2A9A87F300509943 /* ContentView.swift */,
 				0EF04F5F2A9A87F400509943 /* Assets.xcassets */,
 				0EF04F612A9A87F400509943 /* Preview Content */,
+				0EF04F852A9A893200509943 /* HighlightableTextView.swift */,
+				0EF04F872A9A8C5200509943 /* SpeechToTextViewModel.swift */,
 			);
 			path = ReaderDemo;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				0EF04F5E2A9A87F300509943 /* ContentView.swift in Sources */,
 				0EF04F5C2A9A87F300509943 /* ReaderDemoApp.swift in Sources */,
+				0EF04F882A9A8C5200509943 /* SpeechToTextViewModel.swift in Sources */,
+				0EF04F862A9A893200509943 /* HighlightableTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +427,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ReaderDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Ask Reader questions in realtime";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Ask Reader questions in realtime";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +457,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ReaderDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Ask Reader questions in realtime";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Ask Reader questions in realtime";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
